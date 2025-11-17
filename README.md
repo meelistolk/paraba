@@ -11,9 +11,8 @@ From the new project wizard window select Virtualize > Parabank Example Project 
 Once the server is syncronized and running, the demo application should launch automatically on the specified port.\
 By default it should be available at http://localhost:8080/parabank/index.htm
 
-In case you need to stop or restart the Server or troubleshoot the port open the Servers view by going to Window > Show View > Other > Server > Servers.
+In case you need to stop or restart the Server, open the Servers view by going to Window > Show View > Other > Server > Servers.
 Ensure that the ParaBank Tomcat Server is started and synchronized. If it’s not running, right-click on it and select Start.
-Double-click the ParaBank Tomcat server entry to open the Overview editor. Here, you can check the port it is using (default is 8080). If this port is in use, you can change it to another available port.\
 There is also a video tutorial for the previous steps: https://courses.testguild.com/course/parasoft-virtualize-setting-up-your-demo-environment/
 
 ## Running Playwright tests
