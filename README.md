@@ -39,6 +39,7 @@ There is also a video tutorial for the previous steps: https://courses.testguild
    Instructions for VS Code with Playwright extension https://playwright.dev/docs/getting-started-vscode
 
 #### Running Tests
+Make sure that Parabank demo is accessible on http://localhost:8080/parabank/index.htm before running tests
 1.  ```bash
     npx playwright test
     ```
