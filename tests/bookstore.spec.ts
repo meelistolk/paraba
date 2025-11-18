@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import fetch from 'node-fetch';
 import { parseStringPromise } from "xml2js";
 
-const endpoint = 'http://localhost:8080/parabank/services/store-01';
+const endpoint = 'https://parabank.parasoft.com/services/store-01';
 const newItemId = Math.floor(Math.random() * 100000);
 
 test.describe("bookstore web service", () => {

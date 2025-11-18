@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-const baseUrl = 'http://localhost:8080/parabank/index.htm';
+const baseUrl = 'https://parabank.parasoft.com/parabank/index.htm';
 
 test.describe("parabank login", () => {
     test.describe.configure({ mode: 'serial' });
@@ -24,7 +24,7 @@ test.describe("parabank login", () => {
         ]);
     });
 
-    const username = Math.floor(Math.random() * 100000).toString().padStart(6, "0");
+    const username = 'SupTsnofeaw' + Math.floor(Math.random() * 100000).toString().padStart(6, "0");
     test('possible to register a new user', async ({ page }) => {
         await page.goto(baseUrl);
         await expect(page).toHaveTitle('ParaBank | Welcome | Online Banking');

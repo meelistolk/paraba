@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-const baseUrl = 'http://localhost:8080/parabank/index.htm';
+const baseUrl = 'https://parabank.parasoft.com/parabank/index.htm';
 
 test.describe("parabank landing page", () => {
     test('has correct title', async ({ page }) => {
